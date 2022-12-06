@@ -1,0 +1,8 @@
+all:
+  children:
+    appserver:
+      hosts:
+        172.31.9.244:
+          java_package: openjdk-11-jdk
+        172.31.12.133:
+          java_package: java-11-openjdk

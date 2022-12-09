@@ -34,7 +34,7 @@
       ansible.builtin.unarchive:
         src: "/tmp/apache-tomcat-{{ tomcat_version }}.tar.gz"
         creates: "{{ home_dir }}/apache-tomcat-{{ tomcat_version }}"
-        dest: "{{ home_dir }}/apache-tomcat-{{ tomcat_version }}"
+        dest: "{{ home_dir }}"
         group: "{{ username }}"
         owner: "{{ username }}" 
         remote_src: yes 

@@ -98,5 +98,5 @@
         name: 'tomcat.service'
         daemon_reload: yes
         enabled: yes
-        state: started
+        state: 'restarted'
       when: ansible_facts['os_family'] == "Debian"  
